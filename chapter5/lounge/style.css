@@ -13,3 +13,14 @@ h1 {
 p { 
     color: maroon;
 }
+
+
+p.blueberry {
+    color: purple;
+}
+p.greentea {
+    color: green;
+}
+p.raspberry {
+    color: blue;
+}
