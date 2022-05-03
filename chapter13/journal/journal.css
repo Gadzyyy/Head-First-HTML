@@ -23,3 +23,50 @@ blockquote {
   font-style:      italic;
 }
 
+table {
+  margin:           0 20px 0 20px;
+  border:           thin solid black;
+  /* border-spacing:   0; */
+  border-collapse:  collapse;
+  caption-side:     bottom;
+}
+
+td, th {
+  border:           thin dotted gray;
+  padding:          5px;
+}
+
+th {
+  background-color: #cc6600;
+}
+
+table table th {
+  background-color: white;
+}
+
+.cellcolor {
+  background-color: #fcba7a;
+}
+
+/* tr:nth-child(even) {
+background-color:   #fcba7a;
+} */
+
+.center {
+  text-align:       center;
+}
+
+.right {
+  text-align:       right;
+}
+
+caption {
+  font-style:       italic;
+  padding-top:      8px;
+}
+
+li {
+  list-style-image: url("../journal/images/backpack.gif");
+  padding-top:      5px;
+  margin-left:      20px;
+}

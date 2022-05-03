@@ -3,8 +3,13 @@ body {
 	margin: 20px;
 }
 
+h1, h2 {
+	margin-left: 10px;
+}
+
 form {
 	display: table;
+	margin-left: 10px;
 	padding: 10px;
 	border: thin dotted #7e7e7e;
 	background-color: #e1ceb8;
@@ -24,9 +29,15 @@ div.tableRow p {
 	vertical-align: top;
 	padding: 3px;
 }
+
 div.tableRow p:first-child {
 	text-align: right;
 }
+
 p.heading {
 	font-weight: bold;
+}
+
+footer {
+	margin-top: 20px;
 }
